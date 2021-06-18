@@ -1,0 +1,195 @@
+
+
+body{
+    margin: 0px;
+}
+
+
+
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.header{
+    background-color: #3A5795;
+    padding: 10px 0;
+    font-family: tahoma;
+    color: white;
+    font-size: 12px;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+
+.login-area{
+    overflow: hidden;
+    width: 70%;
+}
+
+.login-area label, 
+.login-area input {
+	display: block;
+    cursor: pointer;
+}
+
+.login-area input[type="checkbox"] {
+	float: left;
+	margin-left: 0;
+    cursor: pointer;
+}
+
+
+.login-area input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.login-area a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+.login-area a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.username{
+    float: left;
+    margin-right: 15px;
+}
+
+.password{
+    overflow: hidden;
+    float: left;
+    margin: 1px;
+}
+
+
+.submit{
+    overflow: hidden;
+    float: left;
+}
+
+.submit input{
+    background-color: #5A74AB;
+    color: white;
+    margin-top: 20px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.login-area form{
+    float: right;
+}
+
+
+/******* Main-area****/
+
+.main-area{
+    background: linear-gradient(#ffffff,#D4D9E9);
+}
+
+.mobile-area{
+    width: 50%;
+    float: left;
+    margin-right: 10%;
+}
+
+.signup-area{
+    width: 40%;
+    overflow: hidden;
+}
+
+.mobile-image{
+    float: left;
+    margin-right: 20px;
+   margin-left: 50px;
+}
+.mobile-text{
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.mobile-text H4{
+    font-weight:normal ;
+    color:#23355B;
+    font-size: 14px;
+}
+
+
+.main-area p{
+    font-size: 12px;
+    color: #9197AD;;
+}
+
+.mobile-text p,
+.mobile-text h4{
+    margin: 0;
+}
+
+.mobile-text a{
+   text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 30%;
+    
+    border: 1px solid #000000;
+    padding: 1px 3px;
+    background: linear-gradient(#FFFFFF, #E6E6E6);
+    float: right;
+   margin-top: 60px;
+}
+
+.mobile{
+    margin-top: 30px;
+    background-image:url(image/background.png);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-position: left bottom;
+
+}
+
+
+.signup-area{
+    padding-top: 20px;
+}
+
+.signup-area form{
+    margin-top: 20px;
+}
+.signup-area input[type="text"],
+.signup-area input[type="password"]{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #C1CADA;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+
+.signup-area input[type="text"]:first-child{
+    width: 48%;
+    float: left;
+    margin-right:4%;
+}
+
+
+
+.signup-area input[type="text"]:nth-child(2){
+    overflow: hidden;
+    width: 48%;
+}
